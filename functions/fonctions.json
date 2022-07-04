@@ -1,7 +1,7 @@
 [
   {
     "id": "S100",
-    "label": "Macro-service Conception d'enquêtes",
+    "label": "Conception d'enquêtes",
     "description": "",
     "service": [
       {
@@ -19,11 +19,16 @@
                 "label": "Consulter une présentation de l'offre de services du système d'information de collecte",
                 "users": [
                   {
-                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d’œuvre statistique"
                   }
                 ],
                 "dispo": 2,
-                "idGsbpm": "META",
+                "idGsbpm": "gsbpm-qualite",
                 "idProduct": "NotAvailable",
                 "tools": [{ "id": " Atelier de conception d'enquêtes " }],
                 "description": "Un guide de présentation et d'utilisation de l'offre de services Métallica est mis à disposition et maintenu par l'équipe d'administration des outils Métallica. Il est destiné aux maîtrises d'œuvre d'enquête utilisatrices de la filière et aux équipes conceptrices.",

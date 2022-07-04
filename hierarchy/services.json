@@ -3,17 +3,17 @@
   "label": "Les services",
   "children": [
     {
-      "id": "s100",
+      "id": "S100",
       "label": "Conception d'enquêtes",
       "description": "",
       "children": [
         {
-          "id": "s110",
+          "id": "S110",
           "label": "Accompagnement à la conception d’enquêtes",
           "description": "",
           "children": [
             {
-              "id": "s111",
+              "id": "S111",
               "label": "Accompagnement à la conception du protocole de collecte",
               "description": ""
             },

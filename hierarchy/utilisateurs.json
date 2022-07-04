@@ -1,18 +1,18 @@
 {
-  "id": "u0",
+  "id": "U0",
   "label": "Les utilisateurs",
   "description": "test",
   "children": [
     {
-      "id": "u001",
+      "id": "U001",
       "label": "Maîtrise d’ouvrage d’enquête"
     },
     {
-      "id": "u002",
+      "id": "U002",
       "label": "Maîtrise d’œuvre statistique"
     },
     {
-      "id": "u003",
+      "id": "U003",
       "label": "Répondant"
     }
   ]

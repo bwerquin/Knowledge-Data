@@ -40,6 +40,18 @@
           "description": "Ce sous-processus décrit les activités visant à concevoir les instruments à utiliser au cours de la phase de « collecte ». L’instrument de collecte est produit ou élaboré d’après le cahier des charges établi au cours de la phase de « conception ». Une collecte peut faire appel à un ou plusieurs modes de réception des données, par exemple des interrogatoires directs ou des entretiens téléphoniques; des questionnaires sur support papier, sur support électronique ou sur Internet; des plates-formes SDMX. On peut aussi utiliser comme instruments de collecte les routines d’extraction de données utilisées pour réunir des informations issues d’ensembles de données statistiques ou administratifs existants. Ce sous-processus prévoit aussi la préparation et la mise à l’essai du contenu et du fonctionnement de l’instrument choisi (par exemple, mise à l’essai des questions figurant dans un questionnaire). Il est recommandé d’étudier le lien direct entre les instruments de collecte et le système de métadonnées statistiques, de façon à faciliter le recueil de métadonnées pendant la phase de collecte. La corrélation des métadonnées et des données au point de saisie permet de réduire la charge de travail lors des phases suivantes. La saisie des paramètres de mesure de la collecte de données (paradonnées) revêt aussi de l’importance pour ce sous-processus."
         }
       ]
+    },
+    {
+      "id": "gsbpm-4",
+      "label": "Collecter",
+      "description": "Cette phase recueille ou réunit toute l’information nécessaire (données et métadonnées), en utilisant différents modes de collecte, et la charge dans l’environnement approprié pour des traitements supplémentaires. Pour la production de statistiques régulières, cette phase est exécutée à chaque itération.",
+      "children": [
+        {
+          "id": "gsbpm-4-3",
+          "label": "Réalisation de la collecte",
+          "description": "Ce sous-processus est celui où la collecte est mise en oeuvre, avec les différents outils de collecte utilisés pour recueillir ou rassembler les données. Il comprend le premier contact avec les enquêtés et toutes les actions ultérieures de suivi ou de rappel."
+        }
+      ]
     }
   ]
 }

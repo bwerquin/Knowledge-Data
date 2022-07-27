@@ -11,7 +11,7 @@
         "service": [
           {
             "id": "S111",
-            "label": "Accompagnement à la conception du protocole de collecte>",
+            "label": "Accompagnement à la conception du protocole de collecte",
             "description": "",
             "function": [
               {
@@ -29,31 +29,31 @@
                 ],
                 "dispo": 2,
                 "idGsbpm": "gsbpm-qualite",
-                "idProduct": "NotAvailable",
-                "tools": [{ "id": " Atelier de conception d'enquêtes " }],
+                "idProduct": "P01",
+                "tools": [{ "id": "P01" }],
                 "description": "Un guide de présentation et d'utilisation de l'offre de services Métallica est mis à disposition et maintenu par l'équipe d'administration des outils Métallica. Il est destiné aux maîtrises d'œuvre d'enquête utilisatrices de la filière et aux équipes conceptrices.",
                 "tasks": [
                   {
                     "label": "",
                     "description": "",
-                    "labelStatus": "Disponible \u2013 Cette documentation sera enrichie en continue"
+                    "labelStatus": "Disponible - Cette documentation sera enrichie en continue"
                   }
                 ]
               },
               {
                 "id": "F111-2",
-                "label": "Configurer le protocole d'une enquête (boîte à outils, calendriers types\u2026)",
+                "label": "Configurer le protocole d'une enquête (boîte à outils, calendriers types...",
                 "users": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 1,
-                "idGsbpm": "2.3",
-                "idProduct": "NotAvailable",
-                "tools": [{ "id": " Atelier de conception d'enquêtes " }],
+                "idGsbpm": "gsbpm-2-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P01" }],
                 "description": "Pour les opérations techniques (format des fichiers à fournir aux outils, paramétrage disponible pour les courriers, etc.), une boîte à outils facilitant l'utilisation de l'offre de services est mise à disposition. Les outils en question pourraient à terme être pour partie remplacés par une application de gestion des métadonnées permettant de configurer les différents processus techniques (protocole de l'enquête, calendrier, type de courriers, etc.), le tout constituant un atelier de conception d'enquêtes avec les fonctions de conception de questionnaires.",
                 "tasks": [
                   {
                     "label": "",
                     "description": "",
-                    "labelStatus": "Disponible \u2013 Des outils pour faciliter le travail des intégrateurs dans la génération des questionnaires de production"
+                    "labelStatus": "Disponible - Des outils pour faciliter le travail des intégrateurs dans la génération des questionnaires de production"
                   },
                   {
                     "label": "",
@@ -71,7 +71,7 @@
           },
           {
             "id": "S112",
-            "label": "Accompagnement à la conception du questionnaire>",
+            "label": "Accompagnement à la conception du questionnaire",
             "description": "",
             "function": [
               {

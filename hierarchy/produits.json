@@ -1,29 +1,45 @@
 {
-  "id": "p0",
+  "id": "P0",
   "label": "Les produits",
   "children": [
     {
-      "id": "p01",
-      "label": "Conception d’enquêtes",
+      "id": "P01",
+      "label": "Atelier de conception d’enquêtes",
       "description": "L’atelier de conception d’enquêtes est un ensemble de documentation (formation à la conception de questionnaire, documentation sur l’offre de services du système d’information de collecte), de processus (spécification/recette, déploiement, etc.) et d’outils permettant aux acteurs de spécifier et configurer un processus de collecte d’enquête dans le système d’information de collecte.",
       "children": [
         {
-          "id": "o001",
-          "label": "Atelier de conception d’enquêtes"
+          "id": "P0101",
+          "label": "Stromae - Orchestrateur web"
         },
         {
-          "id": "o002",
-          "label": "Pogues"
-        }
+          "id": "P0102",
+          "label": "Queen - Orchestrateur enquêteur"
+        },
+         {
+          "id": "P0103",
+          "label": "Pogues - Atelier de conception de questionnaire"
+        },
+        {
+          "id": "P0104",
+          "label": "Lunatic - Bibliothèque de composants"
+        },
+         {
+          "id": "P0105",
+          "label": "Eno - Générateur d’instruments de collecte"
+        },
+        {
+          "id": "P0106",
+          "label": "Public Enemy - Outil de personnalisation d’un instrument de collecte"
+        }        
       ]
     },
     {
-      "id": "p02",
+      "id": "P02",
       "label": "Plateforme de collecte",
       "description": "Les produits ...",
       "children": [
         {
-          "id": "o003",
+          "id": "P0201",
           "label": "Portail Coleman"
         },
         {

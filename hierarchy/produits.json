@@ -55,6 +55,40 @@
           "label": "RadioHead - module de communication"
         }
       ]
+    },
+    {
+      "id": "P03",
+      "label": "Services de préparation de collecte",
+      "description": "...",
+      "children": [
+        {
+          "id": "P0301",
+          "label": "Crabe-REM - Référentiel d’unités de collecte"
+        },
+        {
+          "id": "P0302",
+          "label": "Protools - orchestrateur de protocoles"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "label": "Services de traitements d’enquêtes",
+      "description": "...",
+      "children": [
+        {
+          "id": "P0401",
+          "label": "Alimentation Infocentre"
+        },
+        {
+          "id": "P0402",
+          "label": "Genesis"
+        },
+          {
+          "id": "P0403",
+          "label": "Kraftwerk
+        }
+      ]
     }
   ]
 }

@@ -35,16 +35,24 @@
     },
     {
       "id": "P02",
-      "label": "Plateforme de collecte",
-      "description": "Les produits ...",
+      "label": "Plateformes de collecte",
+      "description": "Le produit plateformes de collecte est un service de présentation et d’accès/utilisation du questionnaire autoadministré (web et papier) ou géré par l'enquêteur",
       "children": [
         {
           "id": "P0201",
-          "label": "Portail Coleman"
+          "label": "Coleman - plateforme de collecte web"
         },
         {
-          "id": "o004",
-          "label": " Portail Coltrane"
+          "id": "P0202",
+          "label": "Moog"
+        },
+          {
+          "id": "P0203",
+          "label": "Sabiane - plateforme de collecte enquêteur"
+        },
+        {
+          "id": "P0204",
+          "label": "RadioHead - module de communication"
         }
       ]
     }

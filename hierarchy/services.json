@@ -61,11 +61,11 @@
       ]
     },
     {
-    "id": "S300",
-    "label": "Macro service Collecte Web",
-    "description": "",
-    "children": [
-      {
+	  "id": "S300",
+	  "label": "Macro service Collecte Web",
+	  "description": "",
+	  "children": [
+		{
         "id": "S310",
         "label": "Présenter et permettre l'accès aux questionnaires en ligne",
         "description": "",
@@ -86,11 +86,13 @@
             "description": ""
           }
                     ]
-      {
+		},
+		{
         "id": "S320",
         "label": "Fournir une preuve de dépôt d'un questionnaire complété",
         "description": ""
-      }
-    }
+		}
+				]
+	}
   ]
 }

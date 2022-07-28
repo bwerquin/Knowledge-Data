@@ -61,38 +61,38 @@
       ]
     },
     {
-	  "id": "S300",
-	  "label": "Macro service Collecte Web",
-	  "description": "",
-	  "children": [
-		{
-        "id": "S310",
-        "label": "Présenter et permettre l'accès aux questionnaires en ligne",
-        "description": "",
-        "children": [
-          {
-            "id": "S311",
-            "label": "Lister les questionnaires",
-            "description": ""
-          }
-          {
-            "id": "S312",
-            "label": "Consulter un questionnaire web (ou des annexes)",
-            "description": ""
-          }
-          {
-            "id": "S313",
-            "label": "Saisir un questionnaire",
-            "description": ""
-          }
+      "id": "S300",
+      "label": "Macro service Collecte Web",
+      "description": "",
+      "children": [
+	{
+         "id": "S310",
+         "label": "Présenter et permettre l'accès aux questionnaires en ligne",
+         "description": "",
+         "children": [
+           {
+         	"id": "S311",
+         	"label": "Lister les questionnaires",
+         	"description": ""
+            },
+            {
+        	 "id": "S312",
+       		 "label": "Consulter un questionnaire web (ou des annexes)",
+         	 "description": ""
+            },
+            {
+           	 "id": "S313",
+           	 "label": "Saisir un questionnaire",
+           	 "description": ""
+            }
                     ]
-		},
-		{
+	},
+	{
         "id": "S320",
         "label": "Fournir une preuve de dépôt d'un questionnaire complété",
         "description": ""
-		}
-				]
 	}
+       ]
+     }
   ]
 }

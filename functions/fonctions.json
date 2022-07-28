@@ -373,7 +373,7 @@
                 "dispo": 0,
                 "idGsbpm": "gsbpm-3-1",
                 "idProduct": "P04",
-                "tools": [{ "id": "P0402,
+                "tools": [{ "id": "P0402" }],
                 "description": "Un module applicatif dédié permet de spécifier les indicateurs qualité mobilisés durant le processus de collecte (complétude, relecture nécessaire, etc.). Les possibilités en termes de choix et de configuration de l'indicateur sont sous la responsabilité de DRTI (questions d'ordre méthodologique) et de la DMOAE (accompagnement/formation des enquêteurs). Ces spécifications pilotent des traitements qui calculent effectivement l'indicateur qualité.",
                 "tasks": [
                   {
@@ -412,9 +412,9 @@
                 "label": "Choisir les modèles parmi l'offre standard",
                 "users": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 1,
-                "idGsbpm": "3.1",
-                "idProduct": "Services de préparation de collecte",
-                "tools": [{ "id": " Protools " }],
+                "idGsbpm": "gsbpm-3-1",
+                "idProduct": "P03,
+                "tools": [{ "id": "P0302" }],
                 "description": "L'offre standard de courriers (modèles de lettre-avis, de relance, de remerciements...) offre un certain nombre de modèles de lettres correspondant aux différents protocoles proposés dans le cadre du programme multimode. A l'instar de ce qui existe déjà pour les enquêtes entreprises, ces lettres seront \"pré-labellisées\" (si les courriers de l'enquête s'appuient sur cette offre, ils feront l'objet d'un examen allégé lors du passage au comité du label).",
                 "tasks": [
                   {
@@ -444,9 +444,9 @@
                 "label": "Paramétrer en fonction des métadonnées de l'enquête",
                 "users": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 0,
-                "idGsbpm": "3.1",
-                "idProduct": "Services de préparation de collecte",
-                "tools": [{ "id": " Protools " }],
+                "idGsbpm": "gsbpm-3-1",
+                "idProduct": "P03",
+                "tools": [{ "id": "P0302" }],
                 "description": "Les outils de constitution des courriers s'appuient sur des métadonnées décrivant le protocole de l'enquête, fournies par les maîtrises d'œuvre d'enquêtes ou directement récupérées depuis le référentiel de métadonnées statistiques, afin de configurer les courriers visualisés ou imprimés/envoyés.",
                 "tasks": [
                   {
@@ -465,9 +465,9 @@
                   }
                 ],
                 "dispo": 1,
-                "idGsbpm": "2.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Public Ennemy " }],
+                "idGsbpm": "gsbpm-2-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0106" }],
                 "description": "Public Ennemy, en plus d'une visualisation contextualisée des questionnaires, offrira des services analogues sur les courriers permettant une visualisation du rendu pdf avec données personnalisées dans un courrier.",
                 "tasks": [
                   {

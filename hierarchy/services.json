@@ -52,6 +52,11 @@
           "id": "S220",
           "label": "Espace dédié aux enquêtés",
           "description": ""
+        },
+        {
+          "id": "S230",
+          "label": "Outil de configuration du site de promotion des enquêtes",
+          "description": ""
         }
       ]
     },

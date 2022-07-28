@@ -79,9 +79,9 @@
                 "label": "Disposer de matériaux de formation et d'aide à la conception de questionnaires (DRTI)",
                 "users": [{ "label": "Maîtrise d'ouvrage d'enquête" }],
                 "dispo": 3,
-                "idGsbpm": "META",
-                "idProduct": "NotAvailable",
-                "tools": [{ "id": " Atelier de conception d'enquêtes " }],
+                "idGsbpm": "gsbpm-qualite",
+                "idProduct": "P01",
+                "tools": [{ "id": "P01" }],
                 "description": "La DRTI maintient de la documentation sur la conception de questionnaires (bonnes pratiques, principes généraux) et assure des formations et/ou ateliers méthodologiques destinés aux concepteurs d'enquêtes comme à tout statisticien intéressé par la question.",
                 "tasks": [
                   {
@@ -105,9 +105,9 @@
                   }
                 ],
                 "dispo": 3,
-                "idGsbpm": "META",
-                "idProduct": "NotAvailable",
-                "tools": [{ "id": " Atelier de conception d'enquêtes " }],
+                "idGsbpm": "gsbpm-qualite",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0103" }],
                 "description": "L'unité Qualité maintient de la documentation sur les outils de conception de questionnaires et assurent des formations (programmées ou à la demande) sur ces mêmes outils à destination des équipes de conception de questionnaires et des maîtrises d'œuvre d'enquêtes.",
                 "tasks": [
                   {
@@ -128,7 +128,7 @@
         "service": [
           {
             "id": "S121",
-            "label": "Outil de conception du modèle de questionnaires>",
+            "label": "Outil de conception du modèle de questionnaires",
             "description": "",
             "function": [
               {
@@ -140,10 +140,10 @@
                   }
                 ],
                 "dispo": 2,
-                "idGsbpm": "2.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Pogues " }],
-                "description": "L'outil de spécification de questionnaires (Pogues) propose une interface permettant de spécifier un questionnaire à partir de ses métadonnées (questions, listes de codes, contrôles\u2026). Il est maintenu par l'Unité Qualité.",
+                "idGsbpm": "gsbpm-2-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0103" }],
+                "description": "L'outil de spécification de questionnaires (Pogues) propose une interface permettant de spécifier un questionnaire à partir de ses métadonnées (questions, listes de codes, contrôles...). Il est maintenu par l'Unité Qualité.",
                 "tasks": [
                   {
                     "label": "",
@@ -179,21 +179,21 @@
               },
               {
                 "id": "F121-2",
-                "label": "Gérer des listes ou nomenclatures (nomenclatures « externes », moteur de codification\u2026)",
+                "label": "Gérer des listes ou nomenclatures (nomenclatures « externes », moteur de codification...)",
                 "users": [
                   {
                     "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'oeuvre statistique"
                   }
                 ],
                 "dispo": 0,
-                "idGsbpm": "2.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Pogues " }],
+                "idGsbpm": "gsbpm-2-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0103" }],
                 "description": "Lors de la spécification d'un questionnaire, les utilisateurs peuvent configurer l'appel à des services externes ou des moteurs de codification (type Sicore).",
                 "tasks": [
                   {
                     "label": "",
-                    "description": "Première intégration d'un moteur de recherche sur liste, pays, nationalité et départements .",
+                    "description": "Première intégration d'un moteur de recherche sur liste, pays, nationalité et départements.",
                     "labelStatus": "Disponible"
                   },
                   {
@@ -213,9 +213,9 @@
                 "label": "Visualiser le modèle de questionnaire pour les différents modes disponibles (web, papier, enquêteur)",
                 "users": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 2,
-                "idGsbpm": "2.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Pogues " }],
+                "idGsbpm": "gsbpm-2-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0103" }],
                 "description": "L'outil de spécification de questionnaires (Pogues) propose des fonctionnalités permettant de visualiser le rendu issu du générateur de supports de collecte (Eno), dans le mode sélectionné, d'un questionnaire spécifié.",
                 "tasks": [
                   {
@@ -235,9 +235,9 @@
                 "label": "Offrir une visualisation contextualisée du modèle de questionnaire (y compris aide à la création du fichier de personnalisation) pour les différents modes disponibles (web, papier, enquêteur)",
                 "users": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 0,
-                "idGsbpm": "2.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Public Ennemy " }],
+                "idGsbpm": "gsbpm-2-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0106" }],
                 "description": "Associé à l'outil de spécification de questionnaires, un module applicatif permet de visualiser le rendu des questionnaires, selon le mode sélectionné, personnalisés à partir de données fournies.",
                 "tasks": [
                   {
@@ -252,9 +252,9 @@
                 "label": "Permettre la validation du questionnaire : relecture des spécifications, vérifications des filtres",
                 "users": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 1,
-                "idGsbpm": "2.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Pogues" }, { "id": "Eno " }],
+                "idGsbpm": "gsbpm-2-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0103" }, { "id": "P0105" }],
                 "description": "L'outil de spécification de questionnaires propose un certain nombre de fonctionnalités permettant de valider une spécification : génération d'une spécification littérale, possibilité de tester filtres et contrôles spécifiés\u2026",
                 "tasks": [
                   {
@@ -279,9 +279,9 @@
                 "label": "Produire le dictionnaire des variables pour la préparation des fichiers bruts de collecte (traitements avals)",
                 "users": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 0,
-                "idGsbpm": "2.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Pogues" }, { "id": "Eno " }],
+                "idGsbpm": "gsbpm-2-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0103" }, { "id": "P0105" }],
                 "description": "L'outil de spécification, en s'appuyant sur le moteur de génération Eno, permet la production d'un dictionnaire des variables du questionnaire spécifié, utilisable tant à des fins de documentation que pour la configuration d'autres processus (chaîne aval par exemple).",
                 "tasks": [
                   {
@@ -303,9 +303,9 @@
                 "label": "Produire des supports de collecte sur la base de spécifications formelles de questionnaires (questionnaire web, papier, face à face, téléphonique, spécification de numérisation (code barre)\u2026)",
                 "users": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 2,
-                "idGsbpm": "3.1",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Eno " }],
+                "idGsbpm": "gsbpm-3-1",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0105" }],
                 "description": "Le moteur de génération Eno permet de produire des supports de collecte qui peuvent être techniques (questionnaires pour le web, le papier, les enquêteurs\u2026) ou documentaires (spécification). N.B. : Lorsque le support technique produit ne constitue pas en lui-même le questionnaire, celui-ci s'appuie sur un service ad-hoc (cf. Service Collecte Web, Papier, Enquêteurs) pour rendre le questionnaire utilisable et personnalisable.",
                 "tasks": [
                   {
@@ -344,7 +344,7 @@
           },
           {
             "id": "S123",
-            "label": "Outil de spécification des contrôles qualité post-collecte>",
+            "label": "Outil de spécification des contrôles qualité post-collecte",
             "description": "",
             "function": [
               {
@@ -354,9 +354,9 @@
                   { "label": "Maîtrise d'œuvre statistique   Méthodologie" }
                 ],
                 "dispo": 0,
-                "idGsbpm": "2.5",
-                "idProduct": "NotAvailable",
-                "tools": [{ "id": " Atelier de conception d'enquêtes " }],
+                "idGsbpm": "gsbpm-2-5",
+                "idProduct": "P01",
+                "tools": [{ "id": "P01" }],
                 "description": "Un module applicatif dédié permet de spécifier les contrôles qualité à appliquer après la collecte aux variables collectées. Ces spécifications pilotent des traitements batchs qui exécutent effectivement ces contrôles.",
                 "tasks": [
                   {
@@ -371,9 +371,9 @@
                 "label": "Produire des indicateurs de qualité du questionnaire",
                 "users": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 0,
-                "idGsbpm": "3.1",
-                "idProduct": "NotAvailable",
-                "tools": [{ "id": " Pixies " }],
+                "idGsbpm": "gsbpm-3-1",
+                "idProduct": "P04",
+                "tools": [{ "id": "P0402,
                 "description": "Un module applicatif dédié permet de spécifier les indicateurs qualité mobilisés durant le processus de collecte (complétude, relecture nécessaire, etc.). Les possibilités en termes de choix et de configuration de l'indicateur sont sous la responsabilité de DRTI (questions d'ordre méthodologique) et de la DMOAE (accompagnement/formation des enquêteurs). Ces spécifications pilotent des traitements qui calculent effectivement l'indicateur qualité.",
                 "tasks": [
                   {

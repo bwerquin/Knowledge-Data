@@ -386,8 +386,14 @@
               {
                 "id": "S123-1",
                 "label": "Spécifier les traitements de contrôle qualité à appliquer aux questionnaires collectés",
-                "users": [
-                  { "label": "Maîtrise d'œuvre statistique"}, { "label":  "Méthodologie" }
+                "users": [{ 
+                  "id" : "U002",  
+                  "label": "Maîtrise d'œuvre statistique"
+                  }, 
+                  { 
+                  "id" : "U006",  
+                  "label":  "Méthodologie" 
+                }
                 ],
                 "dispo": 0,
                 "idGsbpm": "gsbpm-2-5",

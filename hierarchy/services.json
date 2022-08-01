@@ -110,6 +110,62 @@
         "description": ""
       }
 	]    
-    }	    
+    },
+    {
+    "id": "S500",
+    "label": "Macro-service Collecte enquêteurs",
+    "description": "",
+    "children: [
+      {
+        "id": "S510",
+        "label": "Offrir aux enquêteurs un service dédié à la passation de questionnaires d'enquêtes",
+        "description": "",
+        "children": [
+          {
+            "id": "S511",
+            "label": "Accéder à un espace dédié à la formation (appropriation des questionnaires)",
+            "description": "" 
+	  },
+          {
+            "id": "S512",
+            "label": "Collecter les données",
+            "description": ""
+	  }
+          ]
+       },
+       {
+        "id": "S520",
+        "label": "Offrir aux enquêteurs un service dédié au suivi et l'organisation de la collecte",
+        "description": "",
+        "children": [
+          {
+            "id": "S521",
+            "label": "Offrir un contexte de formation",
+            "description": ""
+	  },
+          {
+            "id": "S522",
+            "label": "Faciliter les échanges avec les enquêtés",
+            "description": ""
+	   },
+           {
+            "id": "S523",
+            "label": "Accéder à des fonctionnalités de repérage associées à un mode de collecte",
+            "description": ""
+	   },
+           {
+            "id": "S524",
+            "label": "Suivre la collecte",
+            "description": ""
+	   },
+           {
+            "id": "S525",
+            "label": "Organiser la collecte",
+            "description": ""
+	   }
+          ]
+         }
+	]
+     }
   ]
 }

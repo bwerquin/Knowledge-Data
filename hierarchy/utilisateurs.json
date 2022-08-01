@@ -26,6 +26,14 @@
     {
       "id": "U006",
       "label": "Méthodologie"
+    },
+    {
+      "id": "U007",
+      "label": "Maîtrise d'œuvre informatique"
+    },
+    {
+      "id": "U008",
+      "label": "Administrateur de la collecte"
     }
      ]
 }

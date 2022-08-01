@@ -22,6 +22,10 @@
     {
       "id": "U005",
       "label": "Site de gestion locale"
+    },
+    {
+      "id": "U006",
+      "label": "Méthodologie"
     }
      ]
 }

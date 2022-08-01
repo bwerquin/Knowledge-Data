@@ -93,6 +93,22 @@
         "description": ""
 	}
        ]
-     }
+     },
+    {
+    "id": "S400",
+    "label": "Macro-service Collecte papier",
+    "description": "",
+    "children": [
+      {
+        "id": "S410",
+        "label": "Mettre à disposition des questionnaires papier",
+        "description": ""
+      },
+      {
+        "id": "S420",
+        "label": "Numériser de manière standardisée",
+        "description": ""
+      }
+    }	    
   ]
 }

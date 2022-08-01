@@ -47,6 +47,11 @@
       "description": "Cette phase recueille ou réunit toute l’information nécessaire (données et métadonnées), en utilisant différents modes de collecte, et la charge dans l’environnement approprié pour des traitements supplémentaires. Pour la production de statistiques régulières, cette phase est exécutée à chaque itération.",
       "children": [
         {
+          "id": "gsbpm-4-2",
+          "label": "Organisation de la collecte",
+          "description": "Cette sous-phase s’assure que les personnes, les processus et la technologie sont prêts pour la collecte des données et des métadonnées, dans tous les modes prévus. Il prend un certain temps, car il inclut la stratégie, la planification et la formation requises afin de traiter le cas précis du processus d’activité statistique considéré. Lorsque le processus est répété régulièrement, certaines de ces activités (ou toutes) peuvent ne pas être explicitement requises à chaque itération. Pour les processus ponctuels ou nouveaux, ces activités peuvent prendre du temps."
+        },
+        {
           "id": "gsbpm-4-3",
           "label": "Réalisation de la collecte",
           "description": "Ce sous-processus est celui où la collecte est mise en oeuvre, avec les différents outils de collecte utilisés pour recueillir ou rassembler les données. Il comprend le premier contact avec les enquêtés et toutes les actions ultérieures de suivi ou de rappel."

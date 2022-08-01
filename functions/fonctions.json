@@ -80,8 +80,10 @@
               {
                 "id": "F112-1",
                 "label": "Disposer de matériaux de formation et d'aide à la conception de questionnaires (DRTI)",
-                "users": [{ "id": "U001",
-      "label": "Maîtrise d'ouvrage d'enquête" }],
+                "users": [{ 
+                            "id": "U001",
+                            "label": "Maîtrise d'ouvrage d'enquête" 
+                            }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-qualite",
                 "idProduct": "P01",
@@ -105,7 +107,12 @@
                 "label": "Disposer de matériaux de formation aux outils de conception de questionnaires (Unité qualité)",
                 "users": [
                   {
-                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
                   }
                 ],
                 "dispo": 3,
@@ -140,7 +147,12 @@
                 "label": "Spécifier un modèle de questionnaire",
                 "users": [
                   {
-                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
                   }
                 ],
                 "dispo": 2,
@@ -186,7 +198,12 @@
                 "label": "Gérer des listes ou nomenclatures (nomenclatures « externes », moteur de codification...)",
                 "users": [
                   {
-                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'oeuvre statistique"
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
                   }
                 ],
                 "dispo": 0,
@@ -489,7 +506,12 @@
                 "label": "Offrir une visualisation contextualisée",
                 "users": [
                   {
-                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
                   }
                 ],
                 "dispo": 1,
@@ -2142,7 +2164,12 @@
                 "label": "Alimenter une FAQ spécifique par enquête selon un cadre général (modèle de FAQ)",
                 "users": [
                   {
-                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
                   }
                 ],
                 "dispo": 1,
@@ -2575,7 +2602,12 @@
                 "label": "Conserver informations personnelles et réponses d'UE d'une séquence / campagne de collecte à l'autre pour réutilisation (données antérieures)",
                 "users": [
                   {
-                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
                   }
                 ],
                 "dispo": 0,
@@ -2618,7 +2650,12 @@
                 "label": "Créer/Modifier des échantillons de collecte",
                 "users": [
                   {
-                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
                   }
                 ],
                 "dispo": 0,

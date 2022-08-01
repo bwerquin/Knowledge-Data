@@ -24,7 +24,7 @@
                   },
                   {
                     "id" : "U002",
-                    "label": "Maîtrise d’œuvre statistique"
+                    "label": "Maîtrise d'œuvre statistique"
                   }
                 ],
                 "dispo": 2,
@@ -43,7 +43,10 @@
               {
                 "id": "F111-2",
                 "label": "Configurer le protocole d'une enquête (boîte à outils, calendriers types...",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 1,
                 "idGsbpm": "gsbpm-2-3",
                 "idProduct": "P01",
@@ -77,7 +80,8 @@
               {
                 "id": "F112-1",
                 "label": "Disposer de matériaux de formation et d'aide à la conception de questionnaires (DRTI)",
-                "users": [{ "label": "Maîtrise d'ouvrage d'enquête" }],
+                "users": [{ "id": "U001",
+      "label": "Maîtrise d'ouvrage d'enquête" }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-qualite",
                 "idProduct": "P01",
@@ -211,7 +215,10 @@
               {
                 "id": "F121-3",
                 "label": "Visualiser le modèle de questionnaire pour les différents modes disponibles (web, papier, enquêteur)",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 2,
                 "idGsbpm": "gsbpm-2-3",
                 "idProduct": "P01",
@@ -233,7 +240,10 @@
               {
                 "id": "F121-4",
                 "label": "Offrir une visualisation contextualisée du modèle de questionnaire (y compris aide à la création du fichier de personnalisation) pour les différents modes disponibles (web, papier, enquêteur)",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 0,
                 "idGsbpm": "gsbpm-2-3",
                 "idProduct": "P01",
@@ -250,7 +260,10 @@
               {
                 "id": "F121-5",
                 "label": "Permettre la validation du questionnaire : relecture des spécifications, vérifications des filtres",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 1,
                 "idGsbpm": "gsbpm-2-3",
                 "idProduct": "P01",
@@ -277,7 +290,10 @@
               {
                 "id": "F121-6",
                 "label": "Produire le dictionnaire des variables pour la préparation des fichiers bruts de collecte (traitements avals)",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 0,
                 "idGsbpm": "gsbpm-2-3",
                 "idProduct": "P01",
@@ -301,7 +317,10 @@
               {
                 "id": "S122-1",
                 "label": "Produire des supports de collecte sur la base de spécifications formelles de questionnaires (questionnaire web, papier, face à face, téléphonique, spécification de numérisation (code barre)\u2026)",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 2,
                 "idGsbpm": "gsbpm-3-1",
                 "idProduct": "P01",
@@ -369,7 +388,10 @@
               {
                 "id": "S123-2",
                 "label": "Produire des indicateurs de qualité du questionnaire",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 0,
                 "idGsbpm": "gsbpm-3-1",
                 "idProduct": "P04",
@@ -410,7 +432,10 @@
               {
                 "id": "F131-1",
                 "label": "Choisir les modèles parmi l'offre standard",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 1,
                 "idGsbpm": "gsbpm-3-1",
                 "idProduct": "P03",
@@ -442,7 +467,10 @@
               {
                 "id": "F133",
                 "label": "Paramétrer en fonction des métadonnées de l'enquête",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 0,
                 "idGsbpm": "gsbpm-3-1",
                 "idProduct": "P03",
@@ -606,7 +634,10 @@
           {
             "id": "F230-1",
             "label": "Outil de configuration du site de promotion des enquêtes : de la conception à l'intégration",
-            "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
             "dispo": 0,
             "idGsbpm": "gsbpm-3-1",
             "idProduct": "P02",
@@ -975,7 +1006,10 @@
           {
             "id": "F410-1",
             "label": "Interfaçage avec les services éditiques pour génération/impression/envoi des questionnaires papier",
-            "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
             "dispo": 3,
             "idGsbpm": "gsbpm-3-1",
             "idProduct": "P02",
@@ -999,7 +1033,10 @@
           {
             "id": "F420-1",
             "label": "Numériser des questionnaires papier",
-            "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
             "dispo": 2,
             "idGsbpm": "gsbpm-4-4",
             "idProduct": "p02",
@@ -1026,7 +1063,10 @@
           {
             "id": "F420-2",
             "label": "Fournir la liste des questionnaires saisis",
-            "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
             "dispo": 2,
             "idGsbpm": "gsbpm-4-4",
             "idProduct": "P02",
@@ -1053,7 +1093,10 @@
           {
             "id": "F420-3",
             "label": "Fournir les données issues de la saisie",
-            "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
             "dispo": 1,
             "idGsbpm": "gsbpm-4-4",
             "idProduct": "P02",
@@ -2019,7 +2062,10 @@
           {
             "id": "F660-1",
             "label": "Mettre en œuvre de manière standardisée des enquêtes de satisfaction",
-            "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
             "dispo": 0,
             "idGsbpm": "8.1",
             "idProduct": "NotAvailable",
@@ -3055,7 +3101,10 @@
               {
                 "id": "F844-3",
                 "label": "Gérer l'accès des enquêteurs aux unités enquêtées",
-                "users": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "users": [{
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }],
                 "dispo": 0,
                 "idGsbpm": "4.3",
                 "idProduct": "Services de préparation de collecte",

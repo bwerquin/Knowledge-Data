@@ -50,6 +50,11 @@
           "id": "gsbpm-4-3",
           "label": "Réalisation de la collecte",
           "description": "Ce sous-processus est celui où la collecte est mise en oeuvre, avec les différents outils de collecte utilisés pour recueillir ou rassembler les données. Il comprend le premier contact avec les enquêtés et toutes les actions ultérieures de suivi ou de rappel."
+        },
+        {
+          "id": "gsbpm-4-4",
+          "label": "Finaliser la collecte",
+          "description": "Ce sous-processus inclut le chargement des données et des métadonnées collectées dans un environnement électronique approprié aux traitements ultérieurs. Il peut inclure une acquisition manuelle ou automatique des données, par exemple en ayant recours à du personnel de saisie ou à les outils de reconnaissance optique des caractères pour extraire des données des questionnaires papier, ou en convertissant les formats des fichiers reçus d'autres organisations.Il peut également inclure l’analyse des métadonnées du processus (paradonnées) associées à la collecte afin des’assurer que les activités de collecte ont satisfait aux exigences. Dans les cas où il y a un outil de collecte physique qui n'est pas nécessaire pour les traitements ultérieurs, comme un questionnaire papier, cette sous-phase en gère l'archivage."
         }
       ]
     }

@@ -55,6 +55,10 @@
           "label": "RadioHead - module de communication"
         },
         {
+          "id": "P0205",
+          "label": "Atelier de numérisation"
+        },        
+        {
           "id": "P0209",
           "label": "Coltrane"
         }

@@ -115,7 +115,7 @@
     "id": "S500",
     "label": "Macro-service Collecte enquêteurs",
     "description": "",
-    "children: [
+    "children": [
       {
         "id": "S510",
         "label": "Offrir aux enquêteurs un service dédié à la passation de questionnaires d'enquêtes",

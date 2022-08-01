@@ -654,9 +654,9 @@
                 "label": "Afficher la liste des questionnaires",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 3,
-                "idGsbpm": "4.3",
-                "idProduct": "NotAvailable",
-                "tools": [{ "id": " Portail Coltrane " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P02",
+                "tools": [{ "id": "P0209" }],
                 "description": "L'enquêté dispose de la liste des questionnaires auxquels il a déjà répondu, en cours de remplissage ou à renseigner. Fonctionnalité primordiale dans le cas des enquêtes entreprises, celle-ci ne serait utile que pour un panel multi thématique (instruction à mener)",
                 "tasks": [
                   {
@@ -676,9 +676,9 @@
                 "label": "Valider la sélection de questionnaires",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 3,
-                "idGsbpm": "4.3",
-                "idProduct": "NotAvailable",
-                "tools": [{ "id": " Portail Coltrane " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P02",
+                "tools": [{ "id": "P0209" }],
                 "description": "L'enquêté, à partir d'une liste de questionnaires qui lui sont associés, peut accéder, relire ou reprendre un questionnaire.",
                 "tasks": [
                   {
@@ -705,9 +705,9 @@
                 "label": "Afficher questionnaire",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 3,
-                "idGsbpm": "4.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Plateforme de collecte Stromae " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0101" }],
                 "description": "L'enquêté, une fois authentifié, peut visualiser son questionnaire ou les annexes associés.",
                 "tasks": [
                   {
@@ -732,9 +732,9 @@
                 "label": "Expédier questionnaire",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 3,
-                "idGsbpm": "4.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Plateforme de collecte Stromae " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0101" }],
                 "description": "L'enquêté peut valider son questionnaire, ce qui a pour effet de clore définitivement la collecte. Le droit de rectification peut s'exercer par le biais du service d'assistance.",
                 "tasks": [
                   {
@@ -749,9 +749,9 @@
                 "label": "Disposer d'une image (PDF) du questionnaire renseigné",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 2,
-                "idGsbpm": "4.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Plateforme de collecte Stromae " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0101" }],
                 "description": "L'enquêté dispose d'un accès aux réponses qu'il a fournies sous la forme d'un PDF récapitulatif.",
                 "tasks": [
                   {
@@ -778,9 +778,9 @@
                 "label": "Renseigner pour la première fois un questionnaire",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 3,
-                "idGsbpm": "4.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Plateforme de collecte Stromae " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0101" }],
                 "description": "L'enquêté saisit les réponses à son questionnaire, soit partiellement, soit en totalité.",
                 "tasks": [
                   {
@@ -800,9 +800,9 @@
                 "label": "Enregistrer (l'état d') un questionnaire",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 3,
-                "idGsbpm": "4.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Plateforme de collecte Stromae " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0101" }],
                 "description": "L'enquêté peut interrompre le remplissage du questionnaire pour le reprendre ultérieurement, les données collectées sont sauvegardées régulièrement pendant le questionnement et peuvent l'être formellement lorsque le répondant quitte le questionnaire",
                 "tasks": [
                   {
@@ -822,9 +822,9 @@
                 "label": "Reprendre un questionnaire",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 3,
-                "idGsbpm": "4.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Plateforme de collecte Stromae " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0101" }],
                 "description": "Après une interruption, l'enquêté peut reprendre le remplissage du questionnaire à l'endroit où il s'était arrêté (ou au début du questionnaire au choix). Il peut accéder aux réponses qu'il a préalablement fournies par retours arrière successifs au sein de son questionnaire.",
                 "tasks": [
                   {
@@ -844,9 +844,9 @@
                 "label": "Appeler des services d'accès à des ressources externes : listes, nomenclatures, y compris volumineuses (navigation sur liste\u2026) ou ressources multimédia (sons, vidéos\u2026)",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 1,
-                "idGsbpm": "4.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Plateforme de collecte Stromae " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0101" }],
                 "description": "L'enquêté peut mobiliser des ressources externes type ressources multimédias (vidéo, sons) ou des services d'aides à la saisie (nomenclatures, navigation sur liste).",
                 "tasks": [
                   {
@@ -876,9 +876,9 @@
                 "label": "Afficher de l'aide contextuelle",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 3,
-                "idGsbpm": "4.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Plateforme de collecte Stromae " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0101" }],
                 "description": "Pour les questions ou les modalités nécessitant des consignes ou des précisions, l'enquêté bénéficie de textes sous forme d'infos-bulles ou de consignes affichées dans une forme distinctive par rapport au texte de la question, selon les préconisations portées par DRTI.",
                 "tasks": [
                   {
@@ -898,9 +898,9 @@
                 "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité (format, vraisemblance\u2026)",
                 "users": [{ "label": "Répondant" }],
                 "dispo": 3,
-                "idGsbpm": "4.3",
-                "idProduct": "Atelier de conception d'enquêtes",
-                "tools": [{ "id": " Plateforme de collecte Stromae " }],
+                "idGsbpm": "gsbpm-4-3",
+                "idProduct": "P01",
+                "tools": [{ "id": "P0101" }],
                 "description": "Des contrôles de format ou de cohérence sont exécutés en cours de collecte et permettent de signaler au répondant les réponses à corriger.",
                 "tasks": [
                   {
@@ -929,9 +929,9 @@
             "label": "Générer la preuve en PDF automatiquement",
             "users": [{ "label": "Répondant" }],
             "dispo": 3,
-            "idGsbpm": "4.3",
-            "idProduct": "Atelier de conception d'enquêtes",
-            "tools": [{ "id": " Plateforme de collecte Stromae " }],
+            "idGsbpm": "gsbpm-4-3",
+            "idProduct": "P01",
+            "tools": [{ "id": "P0101" }],
             "description": "Dès que le questionnaire est validé, une preuve de dépôt de celui-ci est générée.",
             "tasks": [
               {
@@ -946,9 +946,9 @@
             "label": "Fournir la preuve en PDF pour téléchargement",
             "users": [{ "label": "Répondant" }],
             "dispo": 3,
-            "idGsbpm": "4.3",
-            "idProduct": "Atelier de conception d'enquêtes",
-            "tools": [{ "id": " Plateforme de collecte Stromae " }],
+            "idGsbpm": "gsbpm-4-3",
+            "idProduct": "P01",
+            "tools": [{ "id": "P0101" }],
             "description": "Le questionnaire validé, la preuve de dépôt générée, l'enquêté a la possibilité de la télécharger.",
             "tasks": [
               {

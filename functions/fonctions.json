@@ -977,16 +977,11 @@
             "label": "Interfaçage avec les services éditiques pour génération/impression/envoi des questionnaires papier",
             "users": [{ "label": "Maîtrise d'œuvre statistique" }],
             "dispo": 3,
-            "idGsbpm": "3.1",
-            "idProduct": "Services de préparation de collecte",
-            "tools": [{ "id": " Radiohead " }],
-            "description": "Le module de communication RadioHead prend en charge des modèles de document, type \"questionnaire papier\", issus d'une génération depuis les outils de spécifications de questionnaire. Interfacé avec les services éditiques, le module de communication permet donc la personnalisation, de ces questionnaires papier, leur impression/mise sous pli et envoi.",
+            "idGsbpm": "gsbpm-3-1",
+            "idProduct": "P02",
+            "tools": [{ "id": "P0204" }],
+            "description": "Le module de communication RadioHead prend en charge des modèles de document, type questionnaire papier, issus d'une génération depuis les outils de spécifications de questionnaire. Interfacé avec les services éditiques, le module de communication permet donc la personnalisation, de ces questionnaires papier, leur impression/mise sous pli et envoi.",
             "tasks": [
-              {
-                "label": "",
-                "description": "",
-                "labelStatus": ""
-              },
               {
                 "label": "",
                 "description": "Migration vers un module ad-hoc (Radiohead).",
@@ -1006,9 +1001,9 @@
             "label": "Numériser des questionnaires papier",
             "users": [{ "label": "Maîtrise d'œuvre statistique" }],
             "dispo": 2,
-            "idGsbpm": "4.4",
-            "idProduct": "NotAvailable",
-            "tools": [{ "id": " Atelier numérisation " }],
+            "idGsbpm": "gsbpm-4-4",
+            "idProduct": "p02",
+            "tools": [{ "id": "P0205" }],
             "description": "Le PENM, soit à partir des outils offerts par son atelier de numérisation, soit par le dialogue avec un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, la liste des questionnaires saisis.",
             "tasks": [
               {
@@ -1033,9 +1028,9 @@
             "label": "Fournir la liste des questionnaires saisis",
             "users": [{ "label": "Maîtrise d'œuvre statistique" }],
             "dispo": 2,
-            "idGsbpm": "4.4",
-            "idProduct": "NotAvailable",
-            "tools": [{ "id": " Atelier numérisation " }],
+            "idGsbpm": "gsbpm-4-4",
+            "idProduct": "P02",
+            "tools": [{ "id": "P0205" }],
             "description": "Le PENM, soit à partir des outils offerts par son atelier de numérisation, soit par le dialogue avec un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, la liste des questionnaires saisis.",
             "tasks": [
               {
@@ -1060,9 +1055,9 @@
             "label": "Fournir les données issues de la saisie",
             "users": [{ "label": "Maîtrise d'œuvre statistique" }],
             "dispo": 1,
-            "idGsbpm": "4.4",
-            "idProduct": "NotAvailable",
-            "tools": [{ "id": " Atelier numérisation " }],
+            "idGsbpm": "gsbpm-4-4",
+            "idProduct": "P02",
+            "tools": [{ "id": "P0205" }],
             "description": "L'atelier numérisation, soit à partir de ses outils propres, soit par le recours à un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, les données de collecte issues de l'opération de saisie.",
             "tasks": [
               {

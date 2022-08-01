@@ -552,7 +552,10 @@
           {
             "id": "F210-1",
             "label": "Portail de promotion d'enquête",
-            "users": [{ "label": "Répondant" }],
+            "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
             "dispo": 3,
             "idGsbpm": "gsbpm-3-1",
             "idProduct": "P02",
@@ -589,7 +592,10 @@
           {
             "id": "F210-2",
             "label": "Portail d'authentification",
-            "users": [{ "label": "Répondant" }],
+            "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
             "dispo": 3,
             "idGsbpm": "gsbpm-3-1",
             "idProduct": "P02",
@@ -621,7 +627,10 @@
           {
             "id": "F220-1",
             "label": "Site \"Mon profil\"",
-            "users": [{ "label": "Répondant" }],
+            "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
             "dispo": 0,
             "idGsbpm": "gsbpm-3-1",
             "idProduct": "P02",
@@ -638,7 +647,10 @@
           {
             "id": "F220-2",
             "label": "Site \"Mes Enquêtes\"",
-            "users": [{ "label": "Répondant" }],
+            "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
             "dispo": 3,
             "idGsbpm": "gsbpm-3-1",
             "idProduct": "P02",
@@ -711,7 +723,10 @@
               {
                 "id": "F311-1",
                 "label": "Afficher la liste des questionnaires",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
@@ -733,7 +748,10 @@
               {
                 "id": "F313",
                 "label": "Valider la sélection de questionnaires",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
@@ -762,7 +780,10 @@
               {
                 "id": "F312-1",
                 "label": "Afficher questionnaire",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P01",
@@ -789,7 +810,10 @@
               {
                 "id": "F311-2",
                 "label": "Expédier questionnaire",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P01",
@@ -806,7 +830,10 @@
               {
                 "id": "F311-3",
                 "label": "Disposer d'une image (PDF) du questionnaire renseigné",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 2,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P01",
@@ -835,7 +862,10 @@
               {
                 "id": "F313-1",
                 "label": "Renseigner pour la première fois un questionnaire",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P01",
@@ -857,7 +887,10 @@
               {
                 "id": "F313-2",
                 "label": "Enregistrer (l'état d') un questionnaire",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P01",
@@ -879,7 +912,10 @@
               {
                 "id": "F313-3",
                 "label": "Reprendre un questionnaire",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P01",
@@ -901,7 +937,10 @@
               {
                 "id": "F313-4",
                 "label": "Appeler des services d'accès à des ressources externes : listes, nomenclatures, y compris volumineuses (navigation sur liste\u2026) ou ressources multimédia (sons, vidéos\u2026)",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 1,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P01",
@@ -933,7 +972,10 @@
               {
                 "id": "F313-5",
                 "label": "Afficher de l'aide contextuelle",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P01",
@@ -955,7 +997,10 @@
               {
                 "id": "F313-6",
                 "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité (format, vraisemblance\u2026)",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P01",
@@ -986,7 +1031,10 @@
           {
             "id": "F320-1",
             "label": "Générer la preuve en PDF automatiquement",
-            "users": [{ "label": "Répondant" }],
+            "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
             "dispo": 3,
             "idGsbpm": "gsbpm-4-3",
             "idProduct": "P01",
@@ -1003,7 +1051,10 @@
           {
             "id": "F320-2",
             "label": "Fournir la preuve en PDF pour téléchargement",
-            "users": [{ "label": "Répondant" }],
+            "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
             "dispo": 3,
             "idGsbpm": "gsbpm-4-3",
             "idProduct": "P01",
@@ -2228,7 +2279,10 @@
               {
                 "id": "F711-1",
                 "label": "Afficher une FAQ consolidée (générique/spécifique à l'enquête)",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
@@ -2317,7 +2371,10 @@
               {
                 "id": "F711-5",
                 "label": "Proposer un widget conversationnel",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 0,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "NotAvailable",
@@ -2351,7 +2408,10 @@
               {
                 "id": "F711-7",
                 "label": "Proposer un chatbot",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 0,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "NotAvailable",
@@ -2375,7 +2435,10 @@
               {
                 "id": "F712-1",
                 "label": "Permettre l'accès aux différents canaux d'assistance sur le portail d'enquêtes",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
@@ -2395,7 +2458,10 @@
               {
                 "id": "F712-2",
                 "label": "Indiquer les différents canaux d'assistance sur les courriers",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
@@ -2415,7 +2481,10 @@
               {
                 "id": "F712-3",
                 "label": "Mettre en place un serveur vocal interactif (SVI)",
-                "users": [{ "label": "Répondant" }],
+                "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
                 "dispo": 2,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "NotAvailable",
@@ -2498,7 +2567,10 @@
           {
             "id": "S720-3",
             "label": "Automatiser la réinitialisation du mot de passe",
-            "users": [{ "label": "Répondant" }],
+            "users": [{
+                    "id" : "U003",
+                    "label": "Répondant"
+                  }],
             "dispo": 3,
             "idGsbpm": "gsbpm-4-3",
             "idProduct": "P02",

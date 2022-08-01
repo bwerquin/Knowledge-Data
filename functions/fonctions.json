@@ -1262,7 +1262,7 @@
                 "dispo": 0,
                 "idGsbpm": "gsbpm-4-2",
                 "idProduct": "P02",
-                "tools": [{ "id": " Massive Attack " }],
+                "tools": [{ "id": "P0210" }],
                 "description": "Des outils facilitant la mise en œuvre des sessions de formation (initialisation des comptes et des données notamment) sont mis à disposition des équipes de formation (nationales ou locales) afin de faciliter leur autonomie dans la mise en œuvre de leur formation.",
                 "tasks": [
                   {

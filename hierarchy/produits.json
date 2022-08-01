@@ -4,8 +4,8 @@
   "children": [
     {
       "id": "P01",
-      "label": "Atelier de conception d’enquêtes",
-      "description": "L’atelier de conception d’enquêtes est un ensemble de documentation (formation à la conception de questionnaire, documentation sur l’offre de services du système d’information de collecte), de processus (spécification/recette, déploiement, etc.) et d’outils permettant aux acteurs de spécifier et configurer un processus de collecte d’enquête dans le système d’information de collecte.",
+      "label": "Atelier de conception d'enquêtes",
+      "description": "L'atelier de conception d'enquêtes est un ensemble de documentation (formation à la conception de questionnaire, documentation sur l'offre de services du système d'information de collecte), de processus (spécification/recette, déploiement, etc.) et d'outils permettant aux acteurs de spécifier et configurer un processus de collecte d'enquête dans le système d'information de collecte.",
       "children": [
         {
           "id": "P0101",
@@ -25,18 +25,18 @@
         },
          {
           "id": "P0105",
-          "label": "Eno - Générateur d’instruments de collecte"
+          "label": "Eno - Générateur d'instruments de collecte"
         },
         {
           "id": "P0106",
-          "label": "Public Enemy - Outil de personnalisation d’un instrument de collecte"
+          "label": "Public Enemy - Outil de personnalisation d'un instrument de collecte"
         }        
       ]
     },
     {
       "id": "P02",
       "label": "Plateformes de collecte",
-      "description": "Le produit plateformes de collecte est un service de présentation et d’accès/utilisation du questionnaire autoadministré (web et papier) ou géré par l'enquêteur",
+      "description": "Le produit plateformes de collecte est un service de présentation et d'accès/utilisation du questionnaire autoadministré (web et papier) ou géré par l'enquêteur",
       "children": [
         {
           "id": "P0201",
@@ -71,17 +71,21 @@
       "children": [
         {
           "id": "P0301",
-          "label": "Crabe-REM - Référentiel d’unités de collecte"
+          "label": "Crabe-REM - Référentiel d'unités de collecte"
         },
         {
           "id": "P0302",
           "label": "Protools - orchestrateur de protocoles"
+        },
+        {
+          "id": "P0303",
+          "label": "Batch Sabiane"
         }
       ]
     },
     {
       "id": "P04",
-      "label": "Services de traitements d’enquêtes",
+      "label": "Services de traitements d'enquêtes",
       "description": "...",
       "children": [
         {

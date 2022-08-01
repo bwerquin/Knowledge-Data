@@ -34,6 +34,10 @@
     {
       "id": "U008",
       "label": "Administrateur de la collecte"
+    },
+    {
+      "id": "U009",
+      "label": "Site de gestion nationale"
     }
      ]
 }

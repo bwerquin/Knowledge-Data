@@ -351,7 +351,7 @@
                 "id": "S123-1",
                 "label": "Spécifier les traitements de contrôle qualité à appliquer aux questionnaires collectés",
                 "users": [
-                  { "label": "Maîtrise d'œuvre statistique   Méthodologie" }
+                  { "label": "Maîtrise d'œuvre statistique"}, { "label":  "Méthodologie" }
                 ],
                 "dispo": 0,
                 "idGsbpm": "gsbpm-2-5",
@@ -969,7 +969,7 @@
     "service": [
       {
         "id": "S410",
-        "label": "Mettre à disposition des questionnaires papier >",
+        "label": "Mettre à disposition des questionnaires papier",
         "description": "",
         "function": [
           {
@@ -993,7 +993,7 @@
       },
       {
         "id": "S420",
-        "label": "Numériser de manière standardisée >",
+        "label": "Numériser de manière standardisée",
         "description": "",
         "function": [
           {
@@ -1185,7 +1185,7 @@
           },
           {
             "id": "S512",
-            "label": "Collecter les données>",
+            "label": "Collecter les données",
             "description": "",
             "function": [
               {
@@ -1279,7 +1279,7 @@
                 "idGsbpm": "4.3",
                 "idProduct": "Plateformes de collecte",
                 "tools": [{ "id": " Sabiane collecte " }],
-                "description": "Un enquêteur peut abandonner définitivement un questionnaire. Il peut, à tout moment, interrompre définitivement un questionnaire et renseigner un motif d'abandon (refus, autres\u2026).",
+                "description": "Un enquêteur peut abandonner définitivement un questionnaire. Il peut, à tout moment, interrompre définitivement un questionnaire et renseigner un motif d'abandon (refus, autres...).",
                 "tasks": [
                   {
                     "label": "",
@@ -1290,7 +1290,7 @@
               },
               {
                 "id": "F512-6",
-                "label": "Appeler des services d'accès à des ressources externes : listes, nomenclatures, y compris volumineuses (navigation sur liste\u2026) ou ressources multimédia (sons, vidéos\u2026)",
+                "label": "Appeler des services d'accès à des ressources externes : listes, nomenclatures, y compris volumineuses (navigation sur liste) ou ressources multimédia (sons, vidéos...)",
                 "users": [{ "label": "Enquêteur" }],
                 "dispo": 0,
                 "idGsbpm": "4.3",
@@ -1383,7 +1383,7 @@
           },
           {
             "id": "S522",
-            "label": "Faciliter les échanges avec les enquêtés>",
+            "label": "Faciliter les échanges avec les enquêtés",
             "description": "",
             "function": [
               {
@@ -1424,7 +1424,7 @@
           },
           {
             "id": "S523",
-            "label": "Accéder à des fonctionnalités de repérage associées à un mode de collecte >",
+            "label": "Accéder à des fonctionnalités de repérage associées à un mode de collecte",
             "description": "",
             "function": [
               {
@@ -1495,7 +1495,7 @@
           },
           {
             "id": "S524",
-            "label": "Suivre la collecte >",
+            "label": "Suivre la collecte",
             "description": "",
             "function": [
               {
@@ -1556,7 +1556,7 @@
               },
               {
                 "id": "F524-4",
-                "label": "Accéder à l'historique des informations pour une unité enquêtée sélectionnée (ex : essais de contact, envoi de courriers\u2026)",
+                "label": "Accéder à l'historique des informations pour une unité enquêtée sélectionnée (ex : essais de contact, envoi de courriers...)",
                 "users": [{ "label": "Enquêteur" }],
                 "dispo": 0,
                 "idGsbpm": "4.3",
@@ -1585,7 +1585,7 @@
           },
           {
             "id": "S525",
-            "label": "Organiser la collecte>",
+            "label": "Organiser la collecte",
             "description": "",
             "function": [
               {
@@ -1624,7 +1624,7 @@
               },
               {
                 "id": "F525-3",
-                "label": "Demander l'envoi d'une communication (lettre/mail avis, lettres/mails de relance, SMS\u2026)",
+                "label": "Demander l'envoi d'une communication (lettre/mail avis, lettres/mails de relance, SMS...)",
                 "users": [{ "label": "Enquêteur" }],
                 "dispo": 0,
                 "idGsbpm": "4.3",
@@ -1641,7 +1641,7 @@
               },
               {
                 "id": "F525-4",
-                "label": "Modifier le statut d'une unité d'enquête (y compris terminée, déchet, déménagement, absence de l'enquêteur\u2026)",
+                "label": "Modifier le statut d'une unité d'enquête (y compris terminée, déchet, déménagement, absence de l'enquêteur...)",
                 "users": [{ "label": "Enquêteur" }],
                 "dispo": 0,
                 "idGsbpm": "4.3",

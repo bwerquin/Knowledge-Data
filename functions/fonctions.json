@@ -1917,7 +1917,7 @@
     "service": [
       {
         "id": "S610",
-        "label": "Mise à disposition de paradonnées >",
+        "label": "Mise à disposition de paradonnées",
         "description": "",
         "function": [
           {
@@ -2014,7 +2014,7 @@
       },
       {
         "id": "S630",
-        "label": "Visualisation de questionnaires à contrôler >",
+        "label": "Visualisation de questionnaires à contrôler",
         "description": "",
         "function": [
           {
@@ -2234,7 +2234,7 @@
       },
       {
         "id": "S660",
-        "label": "Mise en place d'enquêtes de satisfaction >",
+        "label": "Mise en place d'enquêtes de satisfaction",
         "description": "",
         "function": [
           {

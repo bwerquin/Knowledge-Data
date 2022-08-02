@@ -166,6 +166,43 @@
           ]
          }
 	]
-     }
+     },
+     {
+      "id": "S600",
+      "label": "Macro-Service Contrôle qualité",
+      "description": "",
+      "children": [
+        {
+          "id": "S610",
+          "label": "Mise à disposition de paradonnées",
+          "description": "" 
+        },
+        {
+          "id": "S620",
+          "label": "Offrir des possibilités de requêtages riches/libres sur les paradonnées",
+          "description": ""
+        },
+        {
+          "id": "S630",
+          "label": "Visualisation de questionnaires à contrôler",
+          "description": ""
+        },
+        {
+          "id": "S640",
+          "label": "Reprendre/Corriger un questionnaire",
+          "description": ""
+        },
+        {
+          "id": "S650",
+          "label": "Fournir des aggrégats destinés au contrôle de gestion",
+          "description": ""
+        },
+        {
+          "id": "S660",
+          "label": "Mise en place d'enquêtes de satisfaction",
+          "description": ""
+        }
+      ]
+    }  
   ]
 }

@@ -1550,7 +1550,7 @@
                 ],
                 "dispo": 0,
                 "idGsbpm": "gsbpm-4-2",
-                "idProduct": "NotAvailable",
+                "idProduct": "P03",
                 "tools": [{ "id": "P0303" }],
                 "description": "Les outils mis à disposition des intégrateurs et administrateurs Métallica, traitements batchs notamment, permettent d'ajouter/supprimer massivement des données de formations (formation à l'outil comme formation à une enquête).",
                 "tasks": [
@@ -1925,13 +1925,18 @@
             "label": "Livrer les paradonnées des enquêtes autoadministrées",
             "users": [
               {
-                "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
-              }
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 0,
-            "idGsbpm": "4.4",
-            "idProduct": "P02",
-            "tools": [{ "id": " Batch Coleman " }],
+            "idGsbpm": "gsbpm-4-4",
+            "idProduct": "P03",
+            "tools": [{ "id": "P0304" }],
             "description": "Les données relatives au déroulement d'un questionnement (paradonnées) enregistrées par le questionnaire internet sont mises à disposition dans un entrepôt. A noter que ces données peuvent être exploitées à des fins de maîtrise d'œuvre ou de conception dans le cadre de tests d'enquête ou de questionnaire. Elles sont mises à disposition en cours de collecte afin de permettre le pilotage du processus (ex: echantillonnage des non-répondants sur la base de paradonnées web).",
             "tasks": [
               {
@@ -1951,12 +1956,17 @@
             "label": "Livrer les paradonnées des enquêtes avec enquêteurs",
             "users": [
               {
-                "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
-              }
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 0,
-            "idGsbpm": "4.4",
-            "idProduct": "NotAvailable",
+            "idGsbpm": "gsbpm-4-4",
+            "idProduct": "P03",
             "tools": [{ "id": "P0303" }],
             "description": "Les données relatives au déroulement d'un questionnement(paradonnées) enregistrées par le questionnaire enquêteur sont mis à disposition dans un entrepôt.",
             "tasks": [
@@ -1984,13 +1994,18 @@
             "label": "Analyser les paradonnées à l'issue de la collecte",
             "users": [
               {
-                "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
-              }
+                    "id" : "U001",
+                    "label": "Maîtrise d'ouvrage d'enquête"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 0,
-            "idGsbpm": "5.3",
-            "idProduct": "NotAvailable",
-            "tools": [{ "id": " Parliament " }],
+            "idGsbpm": "gsbpm-5-3",
+            "idProduct": "P04",
+            "tools": [{ "id": "P0404"}],
             "description": "L'entrepôt de paradonnées (Parliament) fournit une offre d'indicateurs standards (type tableau de bord) et permet un requêtage libre sur les paradonnées pour la construction d'indicateurs ad-hoc (les paradonnées enquêteur individuelles sont réservées aux seuls maîtrises d'œuvre).",
             "tasks": [
               {
@@ -2022,13 +2037,18 @@
             "label": "Relire des questionnaires internet sans possibilité de modification",
             "users": [
               {
-                "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
-              }
+                    "id" : "U009",
+                    "label": "Site de gestion nationale"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 3,
-            "idGsbpm": "5.3",
-            "idProduct": "Atelier de conception d'enquêtes",
-            "tools": [{ "id": " Plateforme de collecte Stromae " }],
+            "idGsbpm": "gsbpm-5-3",
+            "idProduct": "P01",
+            "tools": [{ "id": "P0101" }],
             "description": "La plateforme de collecte internet offre un accès type « site miroir » permettant aux équipes de gestion et de maîtrise d'œuvre statistique de visualiser des questionnaires de répondants internet sans possibilité de modification.",
             "tasks": [
               {
@@ -2045,17 +2065,30 @@
           },
           {
             "id": "F630-2",
-            "label": "Relire des questionnaires « enquêteurs » sans possibilité de modification",
+            "label": "Relire des questionnaires « enquêteurs» sans possibilité de modification",
             "users": [
               {
-                "label": "Site de gestion nationale   Site de gestion locale   Enquêteur   Maîtrise d'œuvre statistique"
-              }
+                    "id" : "U009",
+                    "label": "Site de gestion nationale"
+                  },
+                  {
+                    "id": "U005",
+                    "label": "Site de gestion locale"
+                   },
+                   {
+                    "id": "U004",
+                    "label": "Enquêteur"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 0,
-            "idGsbpm": "5.3",
+            "idGsbpm": "gsbpm-5-3",
             "idProduct": "P02",
             "tools": [{ "id": "P0203" }],
-            "description": "Le questionnaire enquêteur dispose d'un mode « lecture seule » qui empêche les modifications mais permet une relecture par un enquêteur, un gestionnaire, ou tout autre utilisateur habilité.",
+            "description": "Le questionnaire enquêteur dispose d'un mode « lecture seule» qui empêche les modifications mais permet une relecture par un enquêteur, un gestionnaire, ou tout autre utilisateur habilité.",
             "tasks": [
               {
                 "label": "",
@@ -2068,14 +2101,19 @@
             "id": "F630-3",
             "label": "Identifier les questionnaires à vérifier",
             "users": [
-              {
-                "label": "Site de gestion locale   Maîtrise d'œuvre statistique"
-              }
+             {
+                    "id" : "U009",
+                    "label": "Site de gestion nationale"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 0,
-            "idGsbpm": "5.3",
+            "idGsbpm": "gsbpm-5-3",
             "idProduct": "P02",
-            "tools": [{ "id": " Sabiane gestion " }],
+            "tools": [{ "id": "P0206" }],
             "description": "L'outil de gestion DEM permet d'identifier les questionnaires à vérifier selon des critères spécifiques à l'enquête. Il permet également de gérer le cycle de relecture de ces questionnaires (à relire/relu).",
             "tasks": [
               {
@@ -2106,12 +2144,17 @@
             "id": "F640-1",
             "label": "Modifier les valeurs d'un questionnaire enquêteur",
             "users": [
-              {
-                "label": "Site de gestion locale   Maîtrise d'œuvre statistique"
-              }
+             {
+                    "id" : "U009",
+                    "label": "Site de gestion nationale"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 0,
-            "idGsbpm": "5.4",
+            "idGsbpm": "gsbpm-5-4",
             "idProduct": "P02",
             "tools": [{ "id": "P0203" }],
             "description": "Les gestionnaires peuvent modifier/corriger les réponses d'un questionnaire enquêteur dans le cadre d'un processus clairement formalisé. Sabiane collecte permet d'historiser les différentes modifications et leur contexte (en interview, par un gestionnaire\u2026).",
@@ -2127,14 +2170,23 @@
             "id": "F640-2",
             "label": "Modifier les valeurs d'un questionnaire web",
             "users": [
-              {
-                "label": "Site de gestion locale   Site de gestion nationale   Maîtrise d'œuvre statistique"
-              }
+                 {
+                    "id": "U005",
+                    "label": "Site de gestion locale"
+                  }, 
+                  {
+                    "id" : "U009",
+                    "label": "Site de gestion nationale"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 0,
-            "idGsbpm": "5.4",
-            "idProduct": "Services de traitement d'enquêtes",
-            "tools": [{ "id": " Generic " }, { "id": " Genesis " }],
+            "idGsbpm": "gsbpm-5-4",
+            "idProduct": "P04",
+            "tools": [{ "id": "P0405" }, {"id": "P0402"}],
             "description": "Les gestionnaires disposent d'un outil leur permettant de visualiser dans une ergonomie adaptée des questionnaires à corriger. Une couche de contrôle post-collecte permet de mettre en avant les variables à instruire. Les gestionnaires peuvent modifier/corriger les réponses d'un questionnaire web, ces modifications sont historisées.",
             "tasks": [
               {
@@ -2154,11 +2206,24 @@
             "label": "Ajouter un commentaire lié à une unité enquêtée",
             "users": [
               {
-                "label": "Site de gestion locale   Site de gestion nationale   Maîtrise d'œuvre statistique   Enquêteur"
-              }
+                    "id" : "U009",
+                    "label": "Site de gestion nationale"
+                  },
+                  {
+                    "id": "U005",
+                    "label": "Site de gestion locale"
+                   },
+                   {
+                    "id": "U004",
+                    "label": "Enquêteur"
+                  },
+                  {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 0,
-            "idGsbpm": "5.4",
+            "idGsbpm": "gsbpm-5-4",
             "idProduct": "P02",
             "tools": [{ "id": "P0203" }],
             "description": "Le questionnaire enquêteur, utilisé dans un contexte de collecte par l'enquêteur ou dans un contexte de gestion par le gestionnaire DEM, permet la saisie de commentaires sur l'unité enquêté (informations de disponibilité ou signalement de difficultés rencontrées) et pour chaque question (informations sur le contexte particulier de collecte d'une réponse).",
@@ -2185,11 +2250,15 @@
           {
             "id": "F650-1",
             "label": "Produire des aggrégats 'résultat d'une opération de collecte'",
-            "users": [{ "label": "Maîtrise d'oeuvre statistique" }],
+            "users": [
+              {
+              "id": "U002",
+              "label": "Maîtrise d'œuvre statistique"
+              }],
             "dispo": 0,
-            "idGsbpm": "5.4",
-            "idProduct": "NotAvailable",
-            "tools": [{ "id": " Batch Infocentre " }],
+            "idGsbpm": "gsbpm-5-4",
+            "idProduct": "P04",
+            "tools": [{ "id": "P0401" }],
             "description": "En fin de collecte, à partir des évènements enregistrés pendant la période de collecte (cycle de vie d'une unité enquêtée implémenté dans les outils) des aggrégats renseignant sur le 'résultat de l'opération de collecte' sont construits pour chaque unité enquêtée (à des fins d'alimentation de l'infocentre).",
             "tasks": [
               {
@@ -2214,13 +2283,22 @@
             "label": "Fournir des indicateurs de performance",
             "users": [
               {
-                "label": "Maîtrise d'oeuvre statistique   Site den gestion locale   Site de gestion nationale"
-              }
+                    "id" : "U009",
+                    "label": "Site de gestion nationale"
+                  },
+                  {
+                    "id": "U005",
+                    "label": "Site de gestion locale"
+                   },
+                   {
+                    "id" : "U002",
+                    "label": "Maîtrise d'œuvre statistique"
+                  }
             ],
             "dispo": 3,
-            "idGsbpm": "5.4",
-            "idProduct": "Services de traitement d'enquêtes",
-            "tools": [{ "id": " Infocentre " }],
+            "idGsbpm": "gsbpm-5-4",
+            "idProduct": "P04",
+            "tools": [{ "id": "P0401" }],
             "description": "Un infocentre permet la production d'indicateurs de performance et de contrôle de gestion servant de support au management des enquêteurs.",
             "tasks": [
               {
@@ -2245,8 +2323,8 @@
                     "label": "Maîtrise d'œuvre statistique"
                   }],
             "dispo": 0,
-            "idGsbpm": "8.1",
-            "idProduct": "NotAvailable",
+            "idGsbpm": "gsbpm-8-1",
+            "idProduct": "P03",
             "tools": [{ "id": "P0303" }],
             "description": "Le déploiement d'une enquête de satisfaction est un service offert par la nouvelle filière : mise en œuvre et déploiement en partie automatisé et intégration dans la nouvelle filière. Le protocole et le questionnement de telles enquêtes sont standardisés dans la nouvelle filière. Elles offrent des mécanismes d'évaluation tant sur le processus pour la maîtrise d'œuvre statistique que pour la qualité et connaissance du contexte pour la maîtrise d'ouvrage d'enquête.",
             "tasks": [
@@ -2464,9 +2542,9 @@
                   }],
                 "dispo": 3,
                 "idGsbpm": "gsbpm-4-3",
-                "idProduct": "P02",
+                "idProduct": "P03",
                 "tools": [
-                  { "id": " Batch Coleman " },
+                  { "id": "P0304" },
                   { "id": "P0303" }
                 ],
                 "description": "Sur les courriers, il est mentionné les différents canaux pour contacter l'assistance : téléphone, mail et courrier, ainsi que les liens internet pour se renseigner sur l'enquête et sur l'Insee.",
@@ -2670,7 +2748,7 @@
             "idProduct": "P02",
             "tools": [
               { "id": "P0203" },
-              { "id": " Sabiane gestion " }
+              { "id": "P0206" }
             ],
             "description": "Un processus formalisé et documenté permet d'assurer l'assistance des enquêteurs à plusieurs niveaux selon la complexité rencontrée. Des outils collaboratifs, type réseau social d'entreprise ou moteur de chat, sont mobilisés pour faciliter les échanges entre enquêteurs et l'assistance.",
             "tasks": [
@@ -2695,7 +2773,7 @@
             "dispo": 0,
             "idGsbpm": "gsbpm-4-3",
             "idProduct": "P02",
-            "tools": [{ "id": " Sabiane gestion " }],
+            "tools": [{ "id": "P0206" }],
             "description": "Les gestionnaires peuvent envoyer des notifications thématiques aux enquêteurs d'une région ou d'une enquête.",
             "tasks": [
               {
@@ -2754,7 +2832,7 @@
                 "idProduct": "P02",
                 "tools": [
                   { "id": " Moog " },
-                  { "id": " Sabiane gestion " },
+                  { "id": "P0206" },
                   { "id": "P0203" },
                   { "id": " Portail Coltrane " },
                   { "id": " Coltrane pilotage " },
@@ -2985,7 +3063,7 @@
             "users": [{ "label": "Maîtrise d'œuvre informatique" }],
             "dispo": 0,
             "idGsbpm": "gsbpm-4-3",
-            "idProduct": "NotAvailable",
+            "idProduct": "P03",
             "tools": [{ "id": "P0303" }],
             "description": "Les outils de collecte, Sabiane (gestion et collecte) sont mis à jour automatiquement à partir du référentiel d'enquêteurs.",
             "tasks": [
@@ -3015,7 +3093,7 @@
             "dispo": 0,
             "idGsbpm": "gsbpm-4-3",
             "idProduct": "P02",
-            "tools": [{ "id": " Sabiane gestion " }],
+            "tools": [{ "id": "P0206" }],
             "description": "L'application de gestion permet de sélectionner, rechercher et filtrer les unités enquêtées des enquêteurs, et d'en afficher l'état (préparée/repérée/contactée/enquêtée/mode de réponse...).",
             "tasks": [
               {
@@ -3129,7 +3207,7 @@
                 "dispo": 0,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
-                "tools": [{ "id": " Sabiane gestion " }],
+                "tools": [{ "id": "P0206" }],
                 "description": "L'application de gestion (Sabiane gestion) propose des tableaux de bord et indicateurs (taux d'avancement, taux de collecte) standards (proposer à l'identique à toutes les enquêtes selon leur protocole) pour permettre le suivi local des collectes multimodes (potentiel résultat du web inclus) d'enquête.",
                 "tasks": [
                   {
@@ -3156,7 +3234,7 @@
                 "dispo": 0,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
-                "tools": [{ "id": " Sabiane gestion " }],
+                "tools": [{ "id": "P0206" }],
                 "description": "L'application de gestion Sabiane gestion, à partir d'une configuration encadrée (possibilités limités) permet de consulter des tableaux de suivi et indicateurs spécifiques à une enquête (suivi du 'taux de remplissage' de variables significatives ou de strates).",
                 "tasks": [
                   {
@@ -3177,7 +3255,7 @@
                 "dispo": 0,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
-                "tools": [{ "id": " Sabiane gestion " }],
+                "tools": [{ "id": "P0206" }],
                 "description": "L'application de gestion (Sabiane gestion) offre des fonctions de recherches et de filtres sur les unités enquêtées en fonction de leur répartition locale et/ou par enquête, ainsi que des fonctions de visualisation des informations relatives à ces unités (état).",
                 "tasks": [
                   {
@@ -3286,7 +3364,7 @@
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "Services de préparation de collecte",
                 "tools": [
-                  { "id": " Sabiane gestion " },
+                  { "id": "P0206" },
                   { "id": " Radiohead " }
                 ],
                 "description": "Si le protocole de l'enquête le permet, le gestionnaire peut déclencher l'envoi d'un courrier standard (type lettre-avis, relance, courrier de courtoisie), mail ou SMS à un répondant depuis son application de gestion.",
@@ -3306,7 +3384,7 @@
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "Services de préparation de collecte",
                 "tools": [
-                  { "id": " Sabiane gestion " },
+                  { "id": "P0206" },
                   { "id": " Radiohead " }
                 ],
                 "description": "L'application de gestion (Sabiane gestion) permet de visualiser les demandes d'envoi et de communication (courriers, mails, SMS) demandées par les enquêteurs.",
@@ -3456,7 +3534,7 @@
                   { "id": " Moog " },
                   { "id": " Coltrane pilotage " },
                   { "id": "P0203" },
-                  { "id": " Sabiane Gestion " }
+                  { "id": "P0206" }
                 ],
                 "description": "Les applications offrant du suivi national (Moog pour le web ménage, Coltrane Pilotage pour le web entreprise, à définir pour une collecte multimode) ou local (type application enquêteurs Sabiane Collecte) intègrent automatiquement les remontées éditiques de plis non distribués signalés par La Poste.",
                 "tasks": [
@@ -3535,7 +3613,7 @@
                 "dispo": 0,
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
-                "tools": [{ "id": " Sabiane gestion " }],
+                "tools": [{ "id": "P0206" }],
                 "description": "L'application de suivi local (Sabiane gestion) intègre automatiquement les réponses issues de questionnaire papier.",
                 "tasks": [
                   {
@@ -3605,10 +3683,10 @@
             "users": [{ "label": "Maîtrise d'œuvre informatique" }],
             "dispo": 1,
             "idGsbpm": "gsbpm-4-3",
-            "idProduct": "P02",
+            "idProduct": "P03",
             "tools": [
               { "id": "P0303" },
-              { "id": " Batch Coleman " },
+              { "id": "P0304" },
               { "id": " Batch Coltrane " }
             ],
             "description": "Avant lancement de la production éditique, les chaînes applicatives sollicitent un service externe (RNVP) garantissant la normalisation des adresses conformément aux normes postales (norme Afnor) et offrant des services de correction/standardisation pour en améliorer la qualité.",
@@ -3688,10 +3766,10 @@
             "users": [{ "label": "Enquêteur   Répondant" }],
             "dispo": 1,
             "idGsbpm": "gsbpm-4-3",
-            "idProduct": "Atelier de conception d'enquêtes",
+            "idProduct": "P01",
             "tools": [
               { "id": "P0203" },
-              { "id": " Plateforme de collecte Stromae " },
+              { "id": "P0101" },
               { "id": " Portail Coltrane " }
             ],
             "description": "Au sein des questionnaires web et enquêteurs et des interfaces de gestion des données personnelles pour les répondants, un service de standardisation/correction de l'adresse postale et/ou mail est mobilisée afin d'aider le répondant à fournir des adresses de qualité.",
@@ -3835,7 +3913,7 @@
         "users": [{ "label": "Maîtrise d'œuvre informatique" }],
         "dispo": 0,
         "idGsbpm": "5.8",
-        "idProduct": "Services de traitement d'enquêtes",
+        "idProduct": "P04",
         "tools": [{ "id": " Kraftwerk " }],
         "description": "Les données livrées par le SI de collecte sont consolidées quel que soit le mode utilisé pour la collecte ou les processus de contrôle qualité mobilisés. Les règles de consolidation visent à produire une base statistique pour exploitation statistique « aval ». Elles s'appuient sur des métadonnées actives (arbre des variables de l'enquête, règles algorithmique de consolidation\u2026)",
         "tasks": [

@@ -57,6 +57,10 @@
         {
           "id": "P0205",
           "label": "Atelier de numérisation"
+        },
+        {
+          "id": "P0206",
+          "label": "Sabiane - gestion"
         },        
         {
           "id": "P0209",
@@ -84,8 +88,15 @@
         {
           "id": "P0303",
           "label": "Batch Sabiane"
+        },
+        {
+          "id": "P0304",
+          "label": "Batch Coleman"
+        },
+        {
+          "id": "P0305",
+          "label": "Batch Coltrane"
         }
-
       ]
     },
     {
@@ -101,9 +112,17 @@
           "id": "P0402",
           "label": "Genesis"
         },
-          {
+        {
           "id": "P0403",
           "label": "Kraftwerk"
+        },
+        {
+          "id": "P0404",
+          "label": "Parliament"
+        },
+        {
+          "id": "P0405",
+          "label": "Generic"
         }
       ]
     }

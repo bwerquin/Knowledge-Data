@@ -62,6 +62,35 @@
           "description": "Ce sous-processus inclut le chargement des données et des métadonnées collectées dans un environnement électronique approprié aux traitements ultérieurs. Il peut inclure une acquisition manuelle ou automatique des données, par exemple en ayant recours à du personnel de saisie ou à les outils de reconnaissance optique des caractères pour extraire des données des questionnaires papier, ou en convertissant les formats des fichiers reçus d'autres organisations.Il peut également inclure l'analyse des métadonnées du processus (paradonnées) associées à la collecte afin des'assurer que les activités de collecte ont satisfait aux exigences. Dans les cas où il y a un outil de collecte physique qui n'est pas nécessaire pour les traitements ultérieurs, comme un questionnaire papier, cette sous-phase en gère l'archivage."
         }
       ]
+    },
+    {
+      "id": "gsbpm-5",
+      "label": "Traiter les données",
+      "description": "Cette phase décrit l'apurement des données et leur préparation pour l'analyse. Elle est composée de sous-phases qui vérifient, apurent et transforment les données en entrée afin qu'elles puissent être analysées et diffusées en tant que produits statistiques. Cette phase peut être réitérée plusieurs fois si nécessaire. Pour les produits statistiques qui sortent régulièrement, cette phase a lieu à chaque itération. Les sous-phases de cette phase peuvent s'appliquer aux données provenant de sources à la fois statistiques et non statistiques (avec l'exception possible de la sous-phase 5.6 « Calculer les pondérations », qui est en général spécifique aux données d'enquête).",
+      "children": [
+        {
+          "id": "gsbpm-5-3",
+          "label": "Contrôler et qualifier les données",
+          "description": "Cette sous-phase examine les données collectées afin de tenter d’identifier les problèmes potentiels, les erreurs et les écarts tels que les valeurs aberrantes, les non-réponses partielles et les erreurs de codage. On y fait également référence comme processus de validation des données en entrée. Il peut être exécuté de manière itérative, en validant les données vis-à-vis de règles prédéfinies, généralement dans un ordre défini. Il peut appliquer aux données des marqueurs pour une vérification et un redressement automatique ou manuel des données. Ce processus peut s'appliquer à des données provenant de tout type de source, avant et après intégration. Bien que la validation soit traitée comme une partie de la phase « Traiter les données », dans la pratique certains éléments de la validation peuvent se dérouler au moment des activités de collecte, en particulier dans les modes de collecte comme la collecte sur internet. Le rôle de cette sous-phase est la détection d'erreurs réelles ou potentielles, mais toutes les activités correctives qui modifient effectivement les données ont lieu dans la sous-phase 5.4."
+        },
+        {
+          "id": "gsbpm-5-4",
+          "label": "Redresser et imputer les données",
+          "description": "Lorsque les données sont considérées comme incorrectes, manquantes ou non fiables, de nouvelles valeurs peuvent être insérées au cours de cette sous-phase. Les termes « imputer » recouvrent un certain nombre de méthodes pour accomplir cette opération, souvent sur la base de règles."
+        }
+      ]
+     },
+     {
+      "id": "gsbpm-8",
+      "label": "Évaluer",
+      "description": "Cette phase gère l'évaluation d'une instance particulière d'un processus statistique donné, par opposition au processus transversal de gestion de la qualité statistique qui est plus général. Elle prend logiquement place à la fin de l'instance sous revue du processus, mais s'appuie sur les contributions récoltées tout au long de ses différentes phases. Elle inclut l'évaluation du succès d'une instance spécifique du processus statistique, en se basant sur un ensemble de contributions quantitatives et qualitatives ainsi qu'en identifiant et en priorisant les améliorations potentielles.",
+      "children": [
+        {
+          "id": "gsbpm-8-1",
+          "label": "Recueillir les contributions d'évaluation",
+          "description": "Le matériel d’évaluation peut être produit dans n’importe quelle autre phase ou sous-phase. Il peut prendre plusieurs formes, dont les commentaires des utilisateurs, des métadonnées de traitement (paradonnées), des mesures prises sur le système et les suggestions du personnel. Un rapport sur les améliorations réalisées par rapport à un plan d'action convenu lors d'une itération précédente peut également contribuer à l'évaluation des itérations ultérieures. Cette sous-phase rassemble l'ensemble de ces intrants et les rend disponibles pour la personne ou pour l'équipe en charge de l'évaluation."
+        }
+      ]
     }
   ]
 }

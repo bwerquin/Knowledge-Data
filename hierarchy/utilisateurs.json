@@ -1,42 +1,42 @@
 {
-  "id": "U0",
+  "_id": "U0",
   "label": "Les utilisateurs",
   "description": "test",
   "children": [
     {
-      "id": "U001",
+      "_id": "U001",
       "label": "Maîtrise d'ouvrage d'enquête"
     },
     {
-      "id": "U002",
+      "_id": "U002",
       "label": "Maîtrise d'œuvre statistique"
     },
     {
-      "id": "U003",
+      "_id": "U003",
       "label": "Répondant"
     },
     {
-      "id": "U004",
+      "_id": "U004",
       "label": "Enquêteur"
     },
     {
-      "id": "U005",
+      "_id": "U005",
       "label": "Site de gestion locale"
     },
     {
-      "id": "U006",
+      "_id": "U006",
       "label": "Méthodologie"
     },
     {
-      "id": "U007",
+      "_id": "U007",
       "label": "Maîtrise d'œuvre informatique"
     },
     {
-      "id": "U008",
+      "_id": "U008",
       "label": "Administrateur de la collecte"
     },
     {
-      "id": "U009",
+      "_id": "U009",
       "label": "Site de gestion nationale"
     }
      ]

@@ -3530,7 +3530,8 @@
                     "label": "Crabe-REM - Référentiel d'unités de collecte"
                   }
                 ],
-                "description": "Le référentiel d'unités enquêtées disposent d'outils visant à faciliter la sélection et la construction des échantillons de collecte, type non-répondants à relancer, échantillons de séquences ou vagues successives, etc."
+                "description": "Le référentiel d'unités enquêtées disposent d'outils visant à faciliter la sélection et la construction des échantillons de collecte, type non-répondants à relancer, échantillons de séquences ou vagues successives, etc.",
+                "tasks": []
               }
             ]
           },

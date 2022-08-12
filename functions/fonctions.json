@@ -4518,7 +4518,10 @@
                 "id": "P0304",
                 "label": "Batch Coleman"
               },
-              { "id": " Batch Coltrane " }
+              {
+                "id": "P0305",
+                "label": "Batch Coltrane"
+              }
             ],
             "description": "Avant lancement de la production éditique, les chaînes applicatives sollicitent un service externe (RNVP) garantissant la normalisation des adresses conformément aux normes postales (norme Afnor) et offrant des services de correction/standardisation pour en améliorer la qualité.",
             "tasks": [

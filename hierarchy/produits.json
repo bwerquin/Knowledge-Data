@@ -15,7 +15,7 @@
           "id": "P0102",
           "label": "Queen - Orchestrateur enquêteur"
         },
-         {
+        {
           "id": "P0103",
           "label": "Pogues - Atelier de conception de questionnaire"
         },
@@ -23,14 +23,14 @@
           "id": "P0104",
           "label": "Lunatic - Bibliothèque de composants"
         },
-         {
+        {
           "id": "P0105",
           "label": "Eno - Générateur d'instruments de collecte"
         },
         {
           "id": "P0106",
           "label": "Public Enemy - Outil de personnalisation d'un instrument de collecte"
-        }        
+        }
       ]
     },
     {
@@ -46,7 +46,7 @@
           "id": "P0202",
           "label": "Moog"
         },
-          {
+        {
           "id": "P0203",
           "label": "Sabiane - plateforme de collecte enquêteur"
         },
@@ -61,7 +61,7 @@
         {
           "id": "P0206",
           "label": "Sabiane - gestion"
-        },        
+        },
         {
           "id": "P0209",
           "label": "Coltrane"
@@ -69,8 +69,16 @@
         {
           "id": "P0210",
           "label": "Massive Attack"
+        },
+        {
+          "id": "P0211",
+          "label": "Widget d’assistance"
+        },
+        {
+          "id": "P0212",
+          "label": "SVI - Serveur vocal interactif"
         }
-             ]
+      ]
     },
     {
       "id": "P03",
@@ -96,7 +104,8 @@
         {
           "id": "P0305",
           "label": "Batch Coltrane"
-        }
+        },
+        { "id": "P0306", "label": "Opale" }
       ]
     },
     {

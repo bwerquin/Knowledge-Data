@@ -103,7 +103,7 @@
                 "dispo": 3,
                 "idGsbpm": "gsbpm-qualite",
                 "idProduct": "P01",
-                "": [
+                "tools": [
                   {
                     "id": "P01",
                     "description": "L'atelier de conception d'enquêtes est un ensemble de documentation (formation à la conception de questionnaire, documentation sur l'offre de services du système d'information de collecte), de processus (spécification/recette, déploiement, etc.) et d'outils permettant aux acteurs de spécifier et configurer un processus de collecte d'enquête dans le système d'information de collecte.",

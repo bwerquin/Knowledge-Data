@@ -38,6 +38,8 @@
     {
       "id": "U009",
       "label": "Site de gestion nationale"
-    }
-     ]
+    },
+    { "id": "U010", "label": "Assistance" },
+    { "id": "U011", "label": "Administrateur du SI" }
+  ]
 }

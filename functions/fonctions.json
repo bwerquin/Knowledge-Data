@@ -2748,8 +2748,14 @@
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
                 "tools": [
-                  { "id": " Portail Coleman " },
-                  { "id": " Portail Coltrane " }
+                  {
+                    "id": "P0209",
+                    "label": "Coltrane"
+                  },
+                  {
+                    "id": "P0201",
+                    "label": "Coleman - plateforme de collecte web"
+                  }
                 ],
                 "description": "Un ensemble de \"questions/réponses\" est proposé sur les portails de promotion Coleman et Coltrane à destination des internautes. Il se décompose en deux parties, une générale à l'ensemble des enquêtes ménages et une spécifique à l'enquête concernée.",
                 "tasks": [
@@ -2815,8 +2821,14 @@
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
                 "tools": [
-                  { "id": " Portail Coleman " },
-                  { "id": " Portail Coltrane " }
+                  {
+                    "id": "P0209",
+                    "label": "Coltrane"
+                  },
+                  {
+                    "id": "P0201",
+                    "label": "Coleman - plateforme de collecte web"
+                  }
                 ],
                 "description": "Des statistiques de consultation des FAQ sont mis à disposition des acteurs du SI collecte (nombre de connexions, questions les plus consultées,...)",
                 "tasks": [
@@ -2908,8 +2920,14 @@
                 "idGsbpm": "gsbpm-4-3",
                 "idProduct": "P02",
                 "tools": [
-                  { "id": " Portail Coleman " },
-                  { "id": " Portail Coltrane " }
+                  {
+                    "id": "P0209",
+                    "label": "Coltrane"
+                  },
+                  {
+                    "id": "P0201",
+                    "label": "Coleman - plateforme de collecte web"
+                  }
                 ],
                 "description": "Le portail permet d'accéder aux différents canaux d'assistance (formulaire, service de réinitialisation du mot de passe, widget, chatbot,...).",
                 "tasks": [
@@ -3016,8 +3034,14 @@
             "idGsbpm": "gsbpm-4-3",
             "idProduct": "P02",
             "tools": [
-              { "id": " Portail Coleman " },
-              { "id": " Portail Coltrane " },
+              {
+                "id": "P0209",
+                "label": "Coltrane"
+              },
+              {
+                "id": "P0201",
+                "label": "Coleman - plateforme de collecte web"
+              },
               {
                 "id": "P0203",
                 "label": "Sabiane - plateforme de collecte enquêteur"
@@ -3050,8 +3074,14 @@
             "idGsbpm": "gsbpm-4-3",
             "idProduct": "P02",
             "tools": [
-              { "id": " Portail Coleman " },
-              { "id": " Portail Coltrane " }
+              {
+                "id": "P0201",
+                "label": "Coleman - plateforme de collecte web"
+              },
+              {
+                "id": "P0209",
+                "label": "Coltrane"
+              }
             ],
             "description": "Un service de réinitialisation du mot de passe est proposé au répondant en cas d'oubli de celui-ci. Le nouveau peut lui être envoyé par messagerie ou par courrier postal.",
             "tasks": [
@@ -3106,8 +3136,14 @@
             "idGsbpm": "gsbpm-4-3",
             "idProduct": "P02",
             "tools": [
-              { "id": " Portail Coleman " },
-              { "id": " Portail Coltrane " }
+              {
+                "id": "P0209",
+                "label": "Coltrane"
+              },
+              {
+                "id": "P0201",
+                "label": "Coleman - plateforme de collecte web"
+              }
             ],
             "description": "De la documentation d'assistance à destination de répondants, type procédure de réinitialisation de son mot de passe ou base de connaissance, sont mises à disposition sur le portail.",
             "tasks": [
@@ -3240,9 +3276,14 @@
                     "id": "P0203",
                     "label": "Sabiane - plateforme de collecte enquêteur"
                   },
-                  { "id": " Portail Coltrane " },
-                  { "id": " Coltrane pilotage " },
-                  { "id": " Portail Coleman " }
+                  {
+                    "id": "P0209",
+                    "label": "Coltrane"
+                  },
+                  {
+                    "id": "P0201",
+                    "label": "Coleman - plateforme de collecte web"
+                  }
                 ],
                 "description": "Les différents acteurs peuvent mettre à jour les coordonnées d'un répondant suite à une interaction : le répondant lui-même lors d'une connexion, l'enquêteur lors d'un entretien, le gestionnaire ou assimilés lors d'un échange d'assistance.",
                 "tasks": [
@@ -4191,7 +4232,10 @@
                 "label": "Sabiane - plateforme de collecte enquêteur"
               },
               { "id": "P0101", "label": "Stromae - Orchestrateur web" },
-              { "id": " Portail Coltrane " }
+              {
+                "id": "P0209",
+                "label": "Coltrane"
+              }
             ],
             "description": "Au sein des questionnaires web et enquêteurs et des interfaces de gestion des données personnelles pour les répondants, un service de standardisation/correction de l'adresse postale et/ou mail est mobilisée afin d'aider le répondant à fournir des adresses de qualité.",
             "tasks": [
